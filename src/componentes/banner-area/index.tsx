@@ -15,7 +15,7 @@ export const BannerArea = () => {
                 <a href="https://drive.google.com/file/d/146bPSzeGi5T8zA9lFGk9dTwwrFOUmVlS/view?usp=drive_link" target="_blank"><BsDownload/>Curriculo</a>
             </div>
             <div className="banner-titulo">
-                <p>Sou Augusto e sou</p>
+                <p>Me chamo Augusto e sou</p>
                 <div className="titulo">
                     <p>REACT.JS</p>
                     <p>DEVELOPER</p>
