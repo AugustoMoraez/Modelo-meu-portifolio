@@ -1,0 +1,20 @@
+.projetos{
+    flex: 1;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.projetos h2{
+    color: rgb(55,219,66);
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+}
+.box{
+    display: flex;
+}
+@media (max-width:950px) {
+    .box{
+        flex-direction: column;
+    }
+}

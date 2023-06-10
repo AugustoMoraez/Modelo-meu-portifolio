@@ -1,0 +1,93 @@
+.banner{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background: rgb(55,219,66);
+  background: radial-gradient(circle, rgba(55,219,66,1) 0%, rgba(33,119,39,1) 100%);
+}
+/*socials*/
+.social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  bottom:50px;
+}
+.social a {
+  margin: 0px 10px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #f7f7f7;
+}
+.social a:hover{
+  color: black;
+}
+.social a:hover svg{
+  color: black;
+}
+
+.social a svg{
+  transition: 0.5s;
+  color: #fff;
+  font-size: 30px;
+  margin: 0px 20px;
+}
+
+
+/*LOGO PAGE*/
+.banner-titulo p:first-child{
+  color: #f7f7f7;
+  font-weight: 600;
+  font-size: calc(10px + 1vw);
+  margin-bottom: -2%;
+}
+.banner-titulo p:last-child{
+  color: #f7f7f7;
+  font-weight: 600;
+  font-size: calc(10px + 1vw);
+  text-align: end;
+  margin-top: -5%;
+}
+.titulo p{
+  font-size: 7vw;
+  color: #f7f7f7;
+  font-weight: 900;
+  cursor: default;
+}
+.titulo p:first-child{
+  font-size: 5vw;
+  margin-bottom: -8%;
+}
+.titulo p:last-child{
+  font-size: 8vw;
+}
+/**************************************************************/
+  
+@media (max-width:540px) {
+  /*social*/
+  .social{
+   bottom: 10px;
+  }
+  .social a {
+    font-size: 13px;
+  }
+  .social a svg{
+    font-size: 20px;
+  }
+  /*logo*/
+  .titulo p:first-child{
+    font-size: 10vw;
+    margin-bottom: -8%;
+  }
+  .titulo p:last-child{
+    font-size: 15vw;
+  }  
+}

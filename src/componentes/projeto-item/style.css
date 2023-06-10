@@ -1,0 +1,49 @@
+.Item{
+    width: 100%;
+    max-width: 750px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: space-between;
+
+}
+.Item h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(49, 208, 21);
+
+}
+
+.Item .img{
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+}
+.Item .img img {
+    width: 100%;
+    max-width: 750px;
+}
+.Item p {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    max-width: 7500px;
+    text-align: center;
+}
+.Item span {
+    font-weight: 600;  
+    text-align: center;
+}
+.Item a {
+    text-decoration: none;
+    background-color:rgb(55,219,66);
+    color: #fff;
+    padding: 5px 10px;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 20px;
+    max-width: 70px;
+    
+}
